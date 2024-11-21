@@ -24,7 +24,7 @@ service = Service(chromedriver_path)
 driver = webdriver.Chrome(service=service, options=options)
 
 # Base URL for the login page
-login_url = "https://mrecacademics.com/"
+login_url = "https://website.com/"
 
 # Function to login and fetch data
 def login_and_fetch_data(username, password):
